@@ -15,28 +15,28 @@
             <form action="#">
                 <div class="error-txt">This is an error message!</div>
                 <div class="name-details">
-                    <div class="field">
-                        <label>First Name</label>
-                        <input type="text" placeholder="First Name">
+                    <div class="field input">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" placeholder="First Name" required>
                     </div>
-                    <div class="field">
-                        <label>Last Name</label>
-                        <input type="text" placeholder="Last Name">
+                    <div class="field input">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" placeholder="Last Name" required>
                     </div>
-                    <div class="field">
-                        <label>Email Address</label>
-                        <input type="text" placeholder="Enter your email">
+                    <div class="field input">
+                        <label for="email">Email Address</label>
+                        <input type="text" name="email" placeholder="Enter your email" required>
                     </div>
-                    <div class="field">
-                        <label>Password</label>
-                        <input type="text" placeholder="Enter new password">
+                    <div class="field input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Enter new password" required>
                     </div>
-                    <div class="field">
-                        <label>Select Image</label>
-                        <input type="file">
+                    <div class="field image">
+                        <label for="image">Select Image</label>
+                        <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
                     </div>
-                    <div class="field">
-                        <input type="submit" value="Continue to Chat">
+                    <div class="field input">
+                        <input type="submit" name="submit" value="Continue to Chat">
                     </div>
                 </div>
             </form>

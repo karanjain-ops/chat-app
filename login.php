@@ -8,7 +8,7 @@
 <body>
     <div class="wrapper">
         <section class="form login">
-            <header>Chat App</header>
+            <header>Uniconn - Chat App for University Students</header>
             <form action="#">
                 <div class="error-txt">This is an error message!</div>
                 <div class="field input">

@@ -8,7 +8,7 @@
 <body>
     <div class="wrapper">
         <section class="form signup">
-            <header>Chat App</header>
+            <header>Uniconn - Chat App for University Students</header>
             <form action="#" enctype="multipart/form-data" autocomplete="off">
                 <div class="error-txt"></div>
                 <div class="name-details">
